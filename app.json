@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ts_redux_tutorial",
-    "slug": "ts_redux_tutorial",
+    "name": "uconnect",
+    "slug": "uconnect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
