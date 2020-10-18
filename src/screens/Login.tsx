@@ -8,9 +8,7 @@ import {
 } from 'react-native';
 import { TextField } from '../components/TextField';
 import { Button } from '../components/Button';
-
 import { useSelector, useDispatch } from 'react-redux';
-
 import { ApplicationState, onLogin } from '../redux';
 import { useNavigation } from '../utils';
 

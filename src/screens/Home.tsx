@@ -2,22 +2,23 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { Button } from '../components/Button';
-
 import { useNavigation } from '../utils';
+import TopNavBar from '../components/TopNavBar'
+import BottomNavBar from '../components/BottomNavBar'
+
 
 export const Home = () => {
   const { navigate } = useNavigation();
 
   return (
     <View style={styles.container}>
+      <TopNavBar />
       <View style={styles.navigation}>
-        <Text>Home Screen</Text>
       </View>
       <View style={styles.body}>
-        <Button title="Logout" onTap={() => navigate('loginStack')} />
       </View>
 
-      <View style={styles.footer}></View>
+      <BottomNavBar />
     </View>
   );
 };

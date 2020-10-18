@@ -17,6 +17,7 @@ export const Button: React.FC<ButtonProps> = ({ title, onTap }) => {
 const styles = StyleSheet.create({
   btnLogin: {
     height: 60,
+    width: 350,
     backgroundColor: '#295FED',
     marginLeft: 10,
     marginRight: 10,
